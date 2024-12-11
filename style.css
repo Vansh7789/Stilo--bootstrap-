@@ -1,0 +1,238 @@
+/*header section*/
+
+.header{
+    height: 100px;
+    width: 1300px;
+    border: solid 0px rgb(0, 0, 0);
+    margin: auto;
+}
+.logo{
+    margin-top: 10px;
+}
+    body{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+.name{
+    float: left;
+    padding-left: 15px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-right: 50px;
+    margin-left: 10;
+    color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.item_menu{
+    float: left;
+    border: solid 1px rgb(0, 0, 0);
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    margin-left: 20px;
+    background-color: rgb(0, 183, 255);
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 20px;
+}
+.item_menu:hover{
+    background-color: rgb(255, 255, 255);
+}
+.search{
+    float: left;
+    margin-left: 180px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+}
+
+/*center section*/
+
+.d{
+    height: auto;
+    width: 1300px;
+    padding-left: 500px;
+    padding-right: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: auto;
+    height: 50;
+    width: 30;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(../image/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: solid 2px rgb(0, 183, 255);
+    border-radius: 15px;
+}
+.image{
+margin: auto;
+padding-left: 40px;
+padding-right: 40px;
+}
+.description{
+padding-left: 40px;
+padding-right: 40px;
+}
+.button{
+    color: rgb(0, 0, 0);
+    border: solid 1px rgb(0, 0, 0);
+    border-radius: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: rgb(0, 183, 255);
+}
+.button:hover{
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(0, 0, 0);
+}
+
+/*product section*/
+
+.product_heading{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.item{
+   text-align: center;
+   color: rgb(255, 255, 255);
+   border: solid rgb(0, 183, 255);
+   padding: 20px;
+   border-radius: 15px;
+}
+.img{
+    border: solid rgb(0, 183, 255);
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+.p_button{
+    margin-bottom: 20px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    border: solid 1px rgb(0, 0, 0);
+    border-radius: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(0, 183, 255);
+}
+.p_button:hover{
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(0, 0, 0);
+}
+
+/*contact us*/
+
+.contact{
+    text-align: center;
+    color: aliceblue;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+.contact_us{
+    border: solid 2px rgb(0, 183, 255);
+    border-radius: 15px;
+    color: aliceblue;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 200px;
+    padding-bottom: 20px;
+    background-image: url(../image/details.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.details{
+    text-align: center;
+}
+.d-button{
+    float: left;
+    border: solid 1px rgb(0, 0, 0);
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    margin-top: 40px;
+    background-color: rgb(0, 183, 255);
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 20px;
+}
+.d-button:hover{
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(0, 0, 0);
+}
+
+
+.location{
+    border: solid 2px rgb(0, 183, 255);
+    border-radius: 15px;
+    color: aliceblue;
+    height: 500px;
+    width: 1000px;
+}
+.stores{
+    text-align: center;
+    color: aliceblue;
+    margin: auto;
+    padding-top: 50px;
+}
+.map_border{
+    align-content: center;
+    padding-left: 40px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 400px;
+}
+.map{
+    border: solid 2px rgb(0, 183, 255);
+    border-radius: 15px;
+}
+
+
+/*about us*/
+
+.about_us{
+    border: solid 2px rgb(0, 183, 255);
+    border-radius: 15px;
+    height: 350px;
+    width: 1300px;
+    margin: auto;
+    background-image: url(../image/about.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.about{
+    text-align: center;
+    color: aliceblue;
+}
+
+.about_heading{
+    border: solid 2px rgb(0, 183, 255);
+    border-radius: 15px;
+    height: 500px;
+    width: 1300px;
+    color: aliceblue;
+    text-align: center;
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 40px;
+}
